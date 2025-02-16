@@ -43,7 +43,7 @@ def main():
     char_list = char_counter(book_text)         # contains chars and occurences of each char in num for each in array
     char_list = max_to_min(char_list)
     for item in char_list:
-        print(f"The {item["char"]} character was found {item["num"]} times")
+        print(f"The '{item["char"]}' character was found {item["num"]} times")
 
     print("--- End report ---")
 
